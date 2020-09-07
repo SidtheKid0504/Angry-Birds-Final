@@ -16,7 +16,7 @@ var score = 0;
 
 function preload() {
     // Calls WorldTime API Function
-    getBackgroundImg();
+    //getBackgroundImg();
 }
 
 function setup(){
@@ -52,8 +52,8 @@ function setup(){
 
 function draw(){
     // Implents WorldTime API Background 
-    if(backgroundImg)
-        background(backgroundImg);
+    //if(backgroundImg)
+        background(sprites/bg1.png);
     
         noStroke();
         textSize(35)
