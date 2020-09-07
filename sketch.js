@@ -53,7 +53,7 @@ function setup(){
 function draw(){
     // Implents WorldTime API Background 
     //if(backgroundImg)
-        background(sprites/bg1.png);
+        background("sprites/bg1.png");
     
         noStroke();
         textSize(35)
